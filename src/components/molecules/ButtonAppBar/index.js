@@ -26,7 +26,7 @@ const ButtonAppBar = ({ classes }) => (
           <MenuIcon />
         </IconButton>
         <Typography type="title" color="inherit" className={classes.flex}>
-          Trade
+          CryptoTrade
         </Typography>
         <SimpleBadge />
       </Toolbar>

@@ -16,16 +16,16 @@ injectGlobal`
 const App = () => {
   return (
     <div>
-      <Helmet titleTemplate="Trade - %s">
-        <title>Tradeum app</title>
+      <Helmet titleTemplate="CryptoTrade - %s">
+        <title>CryptoTrade</title>
         <meta name="description" content="Trade" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:site_name" content="ARc" />
-        <meta property="og:image" content="https://trade.com/thumbnail.png" />
+        <meta property="og:image" content="https://cryptotrade.com/thumbnail.png" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <link rel="icon" href="https://trade.com/icon.png" />
+        <link rel="icon" href="https://cryptotrade.com/icon.png" />
       </Helmet>
       <ThemeProvider theme={theme}>
         <Switch>

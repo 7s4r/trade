@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { withStyles, createStyleSheet } from 'material-ui/styles'
 import Card, { CardActions, CardContent } from 'material-ui/Card'
-import Button from 'material-ui/Button'
 import Typography from 'material-ui/Typography'
 
 const styleSheet = createStyleSheet(theme => ({
@@ -14,6 +13,11 @@ const styleSheet = createStyleSheet(theme => ({
     margin: '0 2px',
     transform: 'scale(0.8)',
   },
+  title: {
+    marginBottom: 16,
+    fontSize: 14,
+    color: theme.palette.text.secondary,
+  },
   pos: {
     marginBottom: 12,
     color: theme.palette.text.secondary,
@@ -24,7 +28,7 @@ const SimpleCard = ({ title, classes, children }) => (
   <div>
     <Card className={classes.card}>
       <CardContent>
-        <Typography type="headline" component="h2">
+        <Typography type="body1" className={classes.title}>
           {title}
         </Typography>
         <Typography component="p">

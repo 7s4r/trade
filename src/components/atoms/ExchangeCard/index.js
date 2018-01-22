@@ -21,13 +21,18 @@ const styleSheet = createStyleSheet(theme => ({
   button: {
     margin: theme.spacing.unit,
   },
+  title: {
+    marginBottom: 16,
+    fontSize: 14,
+    color: theme.palette.text.secondary,
+  },
 }))
 
 const ExchangeCard = ({ title, classes }) => (
   <div>
     <Card className={classes.card}>
       <CardContent>
-        <Typography type="headline" component="h2">
+        <Typography type="body1" className={classes.title}>
           {title}
         </Typography>
       </CardContent>
