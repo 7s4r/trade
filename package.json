@@ -85,7 +85,7 @@
     "express": "^4.15.2",
     "history": "^4.6.1",
     "isomorphic-fetch": "^2.2.1",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.13",
     "material-ui": "^1.0.0-beta.4",
     "material-ui-icons": "^1.0.0-alpha.19",
     "normalizr": "^3.0.1",
